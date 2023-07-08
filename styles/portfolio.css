@@ -46,9 +46,9 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url(../portfolio-resources/images/header_bg.png);
+    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -163,10 +163,12 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
+
 .resume-item-institute,
 .resume-item-description {
     color: #757575;
@@ -176,24 +178,31 @@ main section {
     width: 558px;
     height: 1px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
 }
-.social-link a{
+
+.social-link a {
     margin-right: 25px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-.contact input[type="text"], .contact input[type="email"], textarea{
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
